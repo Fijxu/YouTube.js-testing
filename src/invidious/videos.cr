@@ -342,6 +342,8 @@ def fetch_video(id, region)
     updated: Time.utc,
   })
 
+  pp video
+
   return video
 end
 
